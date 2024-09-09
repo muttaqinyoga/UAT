@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "b6cb16ac-729c-4690-be53-8a505346aed8",
+		"name": "TXR-038-40",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "6795343"
+	},
+	"item": [
+		{
+			"name": "38",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Forwarded-For",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiZDg3MWZiN2YtYTEwNy03OTQwLTk1N2UtMmYxOTk0MWNkMzZlIiwidXNlcl9uYW1lIjoiQml6cGphcElmVHhyMDM4IiwiWF9JUCI6IjEsIDEwLjI0NS42NS4xMSIsImlhdCI6MTcyNDM5NzQ3MCwiZXhwIjoxNzI0NTA5MDcwLCJpc3MiOiJDVEFTLUlOVEVSRkFDRVMiLCJhdWQiOiJCaXpwamFwSWZUeHIwMzgifQ.hxQ3OcsIS3ljyn8yJPPqU7xHeUhhR1PqZfDzYsAZC8TJR6Fb2uATA-uEGfQMgJUQzLiUsQatT8iMibYNwD12hw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kanal\": \"01\",\r\n    \"jnsSpt\": \"ICT_DOGCITR\",\r\n    \"masaPajak\": \"0112\",\r\n    \"tahunPajak\": 2023,\r\n    \"npwp\": \"0010704674081000\",\r\n    \"nop\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.245.65.11:28820/mediate/ctas/interface/bizPJAP/ctasApp/IF_TXR_038/reqContent"
+			},
+			"response": []
+		},
+		{
+			"name": "39",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Forwarded-For",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiOTM0YzkyZTQtM2ZmMS1kMjRmLTg0N2UtZTkyMWJiYmZkYTc2IiwidXNlcl9uYW1lIjoiQml6cGphcElmVHhyMDM5IiwiWF9JUCI6IjEsIDEwLjI0NS42NS4xMSIsImlhdCI6MTcyNDM5OTMxOCwiZXhwIjoxNzI0NTEwOTE4LCJpc3MiOiJDVEFTLUlOVEVSRkFDRVMiLCJhdWQiOiJCaXpwamFwSWZUeHIwMzkifQ.tTftZi-0YlmjG0Tzkn0H3Bzfg_y6j48WKpG1AAQWm_ofvsKoj9NZmSER314oNcrqgCq1QhfPqTBoWp0Xr5T-uA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kanal\": \"01\",\r\n    \"jnsSpt\": \"ICT_DCITR\",\r\n    \"npwp\": \"0314691379074000\",\r\n    \"idSpt\": \"2ea44825-bbd1-3ca4-7d90-467bd2edbd84\",\r\n    \"nop\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.245.65.11:28820/mediate/ctas/interface/bizPJAP/ctasApp/IF_TXR_039/reqContent"
+			},
+			"response": []
+		},
+		{
+			"name": "40",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Forwarded-For",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiYWQ1ODVlNDgtYzJmZS04NTQ2LWJjYTctYmJiODA1NmYwNThkIiwidXNlcl9uYW1lIjoiQml6cGphcElmVHhyMDQwIiwiWF9JUCI6IjEsIDEwLjI0NS42NS4xMSIsImlhdCI6MTcyNDI5NzcxMSwiZXhwIjoxNzI0NDA5MzExLCJpc3MiOiJDVEFTLUlOVEVSRkFDRVMiLCJhdWQiOiJCaXpwamFwSWZUeHIwNDAifQ.t7X5cM3ahrJcrv4LmzzVTgFqnN5OwgmDtc_MAl2yxzBbvQZWYT2ji8y9PCNgmbziMZYs0tDCU6JbVpAM0mNDLw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kanal\": \"01\",\r\n    \"idSpt\": \"bc1b0d97-eb96-45da-9c12-59452522bfae\",\r\n    \"jenisSpt\": \"VAT_DVATR\",\r\n    \"msPjk\": \"12\",\r\n    \"thnPjk\": \"2023\",\r\n    \"tglSpt\": \"23082024\",\r\n    \"npwp\": \"0421898479433000\",\r\n    \"nop\": \"\",\r\n    \"nikPenandatangan\": \"3215251308700003\",\r\n    \"passpharase\": \"Pajak12345\",\r\n    \"dataSpt\": \"{\\\"ImportOfTaxableGoods\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticTaxableGoodsUsingOtherValueTaxBase\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticTaxableGoodsWithInvoiceCode01\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticTaxableGoodsWithInvoiceCode02\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"CarryForwardOfInputTax\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":160000.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"ResultsOfTheRecalculation\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"AmountOfInputTaxCalculated\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":160000.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"OutputTaxMustBeSelfCollected\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"InputTaxCanBeCalculated\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":160000.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"A1FormListOfExportTaxableGoodsOrServices\\\":{\\\"TaxableEntrepreneurName\\\":\\\"NAMA0421898479433000\\\",\\\"TIN\\\":\\\"0421898479433000\\\",\\\"TaxPeriodMonth\\\":12,\\\"TaxPeriodYear\\\":2023,\\\"ReturnSheetModel\\\":\\\"NORMAL\\\",\\\"Total\\\":0.0},\\\"A2FormListOfOutputTaxesOnDomesticDeliveries\\\":{\\\"TaxableEntrepreneurName\\\":\\\"NAMA0421898479433000\\\",\\\"TIN\\\":\\\"0421898479433000\\\",\\\"TaxPeriodMonth\\\":12,\\\"TaxPeriodYear\\\":2023,\\\"ReturnSheetModel\\\":\\\"NORMAL\\\",\\\"TotalTaxBase\\\":0.0,\\\"TotalOtherTaxBase\\\":0.0,\\\"TotalVAT\\\":0.0,\\\"TotalSTLG\\\":0.0},\\\"B1FormListTaxesCreditedOnTheImportTaxableGoods\\\":{\\\"TotalTaxBase\\\":0.0,\\\"TotalVAT\\\":0.0,\\\"TotalSTLG\\\":0.0},\\\"B2FormListTaxesThatCanBeCreditedForDomesticTaxableGoods\\\":{\\\"TotalSellingPrice\\\":0.0,\\\"TotalOtherTaxBase\\\":0.0,\\\"TotalVAT\\\":0.0,\\\"TotalSTLG\\\":0.0},\\\"B3FormListOfInputTaxesUncredit\\\":{\\\"TotalSellingPrice\\\":0.0,\\\"TotalOtherTaxBase\\\":0.0,\\\"TotalVAT\\\":0.0,\\\"TotalSTLG\\\":0.0},\\\"CFormListOfVatAndStlgCollectedByOtherParties\\\":{\\\"TotalTaxBase\\\":0.0,\\\"TotalOtherTaxBase\\\":0.0,\\\"TotalVAT\\\":0.0,\\\"TotalSTLG\\\":0.0},\\\"IA6FormListDomesticDeliveriesOfTaxableGoodsSelfCollected\\\":null,\\\"IA9FormListDomesticDeliveriesOfTaxableGoodsFacilities\\\":null,\\\"IBFormListDeliveriesOfGoodsWithNoVATPayable\\\":null,\\\"DocumentListMotorVehicle\\\":null,\\\"DocumentResultOfRecalculationInputTax\\\":null,\\\"MotorVehicleDetailsXmlDocumentNumber\\\":null,\\\"IA6FormDocumentList\\\":null,\\\"IA9FormDocumentList\\\":null,\\\"IBFormDocumentList\\\":null,\\\"ReplacementPrevious\\\":false,\\\"ExportTangibleTaxableGoods\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"DomesticDeliveriesUsingOtherValue\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesToTourist\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesOtherThanOtherValue\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesSelfCollected\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesCollectedByVATCollector\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesUncollectedVAT\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesExemptedVAT\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DomesticDeliveriesVAT\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DeliveryOfTaxableGoodsSubjectToVAT\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"DeliveriesOfGoodsNoVAT\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"TotalDeliveryOfGoodsAndServices\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"ImportsOfUncreditedInput\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"ImportsOfOtherTaxableGoods\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"TotalAcquisition\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATIsDepositedInAdvance\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATCollectedByVATCollector\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATUnderOrOverPaid\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":-160000.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATUnderOrOverPaidOnPrevious\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATUnderOrOverPaidDueToAmendment\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"AskForReplacement\\\":null,\\\"AskedTo\\\":null,\\\"BankAccount\\\":null,\\\"AccountNo\\\":null,\\\"BankCode\\\":null,\\\"BankName\\\":null,\\\"AccountName\\\":null,\\\"VATPayable\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATNeedToRepay\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":null},\\\"STLGMustBeSelfCollected\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"STLGCollectedByVATCollector\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"STLGUnderOrOverPaid\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"STLGUnderOrOverPaidOnPrevious\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"STLGUnderOrOverPaidDueToAmendment\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"AskedForReturns\\\":null,\\\"XmlDocumentNumber\\\":null,\\\"RecordId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"TaxType\\\":\\\"VAT_DVAT\\\",\\\"IsDraft\\\":true,\\\"TaxableEntrepreneurName\\\":\\\"NAMA0421898479433000\\\",\\\"Address\\\":\\\"PERUM RANCAMANYAR C.4 NO.27-28,  RT 002,  RW 007, WANCIMEKAR, KOTA BARU, KAB. KARAWANG, JAWA BARAT, Indonesia 41377\\\",\\\"PhoneNumber\\\":\\\"+6281999760161\\\",\\\"Cellphone\\\":\\\"+6281999760161\\\",\\\"TaxpayerType\\\":\\\"TA002\\\",\\\"TIN\\\":\\\"0421898479433000\\\",\\\"BusinessFieldClassification\\\":\\\"95240\\\",\\\"TaxPeriod\\\":\\\"12122023\\\",\\\"ReturnSheetModel\\\":\\\"NORMAL\\\",\\\"BookkeepingPeriodStart\\\":1,\\\"BookkeepingPeriodEnd\\\":12,\\\"TotalVATAndSTLGCollected\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"VATAndSTLGUnderOrOverPaidOnAmmended\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATAndSTLGUnderOfOverPaidDueToAmmendment\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"TotalVATAndSTLGCollectedByOtherParties\\\":{\\\"SellingPrice\\\":0.0,\\\"OtherTaxBase\\\":0.0,\\\"VAT\\\":0.0,\\\"SalesTaxLuxuryGoods\\\":0.0},\\\"VATAndSTLGCollectedByOtherPartiesUnderOrOverPaidOnAmmended\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"VATAndSTLGCollectedByOtherPartiesUnderOfOverPaidDueToAmmendment\\\":{\\\"SellingPrice\\\":null,\\\"OtherTaxBase\\\":null,\\\"VAT\\\":null,\\\"SalesTaxLuxuryGoods\\\":null},\\\"AskedForReturnsShouldNotBeOwned\\\":null,\\\"DeclareBy\\\":null,\\\"City\\\":null,\\\"Date\\\":\\\"2024-08-22T10:39:53.961729+07:00\\\",\\\"Signature\\\":null,\\\"Name\\\":\\\"NAMA0421898479433000\\\",\\\"Position\\\":null,\\\"DueDate\\\":\\\"2024-01-31T00:00:00\\\",\\\"ReturnSheetType\\\":\\\"VAT_DVATR\\\"}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.245.65.11:28820/mediate/ctas/interface/bizPJAP/ctasApp/IF_TXR_040/reqContent"
+			},
+			"response": []
+		},
+		{
+			"name": "refresh-token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Forwarded-For",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":\"BizpjapIfTxr039\",\r\n    \"Key\":\"my6BIcmIG5zxtOD03jdFvzYjSmdB3TWFzMhRBWzhV/4cOVZnpmUnWDMzYc2I6RmSGGsh4drbjxsjRn8bjbfTEA==\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.245.65.11:28820/mediate/ctas/interface/collabEntity/ctasApp/IF_CLB_072/reqContent"
+			},
+			"response": []
+		},
+		{
+			"name": "submit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjVENjlGREUxMTRBQzkzRTU1QzExQjMwQjIyMzFGQTRDMzlGNzNDMUJSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlhXbjk0UlNzay1WY0ViTUxJakg2VERuM1BCcyJ9.eyJuYmYiOjE3MjQxNDgzMTQsImV4cCI6MTcyNDE1MTkxNCwiaXNzIjoiaHR0cHM6Ly90cHBvcnRhbC1xYS5pbnRyYW5ldC5wYWphay5nby5pZC9pZGVudGl0eXByb3ZpZGVycG9ydGFsIiwiY2xpZW50X2lkIjoiY2F0cy1wb3J0YWwtYW5ndWxhci1jbGllbnQiLCJzdWIiOiIwMDE1ODg3MjUwMDkyMDAwIiwiYXV0aF90aW1lIjoxNzI0MTQ4MzE0LCJpZHAiOiJsb2NhbCIsImlkZW50aWZpZXIiOiI5ZmQ5YzQ1Ny0zZjY5LTViNDQtYjcwNS0xOTMyMmVmYTg4MTQiLCJ1c2VyX25hbWUiOiIwMDE1ODg3MjUwMDkyMDAwIiwiaW5hY3Rpdml0eVRpbWVvdXQiOiI2MDAwMCIsImxhbmd1YWdlIjoiZW4tVVMiLCJsYXN0bG9naW50aW1lIjoiMjAyNC0wOC0yMFQxNjowNDoyNi4wMDAiLCJ0YXhvZmZpY2UiOiIwOTIiLCJmdWxsX25hbWUiOiJOQU1BMDAxNTg4NzI1MDA5MjAwMCIsImVtYWlsIjoidGVzdGluZ2N0YXNAa2VtZW5rZXUuZ28uaWQiLCJwZXJtaXNzaW9ucyI6IlszMywyOTcsMjk4LDI5MywyMDIsMzExLDkwMiwzMDcsMTcxLDIxNCwyNTAsMjgwLDIzNywyNjYsMjUsMzcsNjUsMjksNjMsNjIsNTcsNTMsNDksMjM2LDI0MCwyNDQsMjQ1LDMxNCwzMTksMzIyLDMyNCw2OTEsNjg5LDY4Nyw2OTAsNjg4LDY4MSw2ODIsNjg2LDY4Myw2ODUsNjg0LDcwMiw3MDAsNjk4LDcwMSw2OTksNjkyLDY5Myw2OTcsNjk0LDY5Niw2OTUsNjY5LDY2Nyw2NjUsNjY4LDY2Niw2NTksNjYwLDY2NCw2NjEsNjYzLDY2Miw2ODAsNjc4LDY3Niw2NzksNjc3LDY3MCw2NzEsNjc1LDY3Miw2NzQsNjczLDY1OCw2NTcsNjU1LDY1Niw2NDksNjUwLDY1NCw2NTEsNjUzLDY1Miw2MjEsNjE5LDYxNyw2MjAsNjE4LDYxMSw2MTIsNjE2LDYxMyw2MTUsNjE0LDYxMCw2MDgsNjA2LDYwOSw2MDcsNjAwLDYwMSw2MDUsNjAyLDYwNCw2MDMsOTksMTA5LDEwOCwxMDcsMTQ2LDE1MSwxNTYsMTYxLDE3MiwxOTEsMTQwLDEzOCwxNDIsMTY4LDE2MywyNTIsMjE1LDI3MywyNTEsMjgxLDIzNSwyNjcsOTQ1LDI4NiwyMTEsOTIzLDE0MywxNDgsMTUzLDE1OCwxMjgsMTI1LDEyNiwxNjUsMTI3LDIyNyw5MDgsOTUsMjA2LDI3MCwyMDAsMjQ3LDI3NSwyMzIsMjYxLDIyNSwyMzksNjQzLDY0MSw2MzksNjQyLDY0MCw2MzMsNjM0LDYzOCw2MzUsNjM3LDYzNiwyMjEsMjI5LDQyMSwyMDgsMjcyLDkwNCwyNDgsMjc4LDIzNCwyNjQsMzI1LDY0Nyw2NDgsNjQ1LDY0NCw2NDYsNDEyLDIxMiwyOTAsOTQwLDk0MSwyMCwxOTgsMjIwLDE0NCwxNDksMTU0LDE1OSwxMzYsMTMzLDEzNSwxNjYsMTM0LDIyOCwzMTYsMTIyLDIwNywyNzEsOTgsMzEyLDkwMywyNDEsMjc3LDIzMywyNjMsOTIwLDMwOCwyOTEsOTIxLDc3OSw3ODEsNzg4LDc4NSw3ODksNzg0LDc4Niw3ODcsNzgwLDc4Miw3ODMsNzY1LDc2Myw3NzIsNzY2LDc3Myw3NzQsNzcxLDc2OCw3NzAsNzY5LDc2Nyw3NjQsMTQ3LDE1MiwxNTcsMTYyLDEzOSwxMzcsMTQxLDE2OSwxNjQsNzc1LDc3Nyw3NzgsNzc2LDc1MCw3NTIsNzU5LDc1Niw3NTUsNzYyLDc2MSw3NTcsNzU4LDc2MCw3NTEsNzUzLDc1NCw5NDQsNDE0LDQxMSwyNywzOSwzNSwzMSw1OSw1NSw1MSw5NDIsMjAzLDI5OSw0MjMsMzA5LDI4MiwyNDYsMjY4LDg0MCw4NDgsODQ1LDg0NCw4NDYsODQ3LDg0MSw4NDIsODQzLDgxMSw4MDUsODA2LDgwNyw4MDksODEyLDgxOSw4MjcsODE2LDgxNSw4MjMsODI4LDgyOSw4MjYsODIyLDgyMCw4MjQsODI1LDgxNyw4MTgsODIxLDgwOCw4MTAsODEzLDgxNCw4MzAsODMyLDgzOSw4MzYsODM1LDgzNyw4MzgsODMxLDgzMyw4MzQsNzkwLDc5MSw3OTMsODAwLDc5Nyw4MDQsNzk2LDgwMiw4MDEsODAzLDc5OCw3OTksNzkyLDc5NCw3OTUsNDE1LDk0Myw0MjIsMjIzLDYzMiw2MzAsNjI4LDYzMSw2MjksNjIyLDYyMyw2MjcsNjI0LDYyNiw2MjUsNDEzLDI4OSwyMjIsMjk0LDUwMCwzMDAsNDI0LDQxNywyNDksMjc5LDI2NSw2NCwyMSw2MSw0NSw0MSwyMDksMTc0LDE4NSwxNzcsMTc4LDE4OSwxNzMsMTg3LDE3NiwxNzUsMTcwLDI1NCwxODAsMTg2LDE4MywxODQsMTkwLDE3OSwxODgsMTgyLDE4MSwyODMsMjU1LDI2OSwyNiwzOCwzNCwzMCw1OCw1NCw1MCw0MTYsMjU2LDEyMCwyODcsNDAxLDkzOCwyMTksMjE2LDIxOCwyMTcsOTM3LDMxMywyOTUsMTQ1LDE1MCwxNTUsMTYwLDEzMCwxMjksMTMxLDE2NywxMzIsMjk2LDI5Miw1MDEsMjg4LDMwMSwyMjQsMjEzLDI4NCwyMjYsNDI1LDQxOCw0MjAsNDE5LDMxNSwxMjEsMTk3LDI1NywyNTgsOTA1LDkyLDIwNSwyMDQsMjUzLDMyNiw0MDAsOTQsMTIzLDk2LDE3LDk3LDMxNywzMjAsMzEwLDE5OSw5MDEsMjM4LDI4NSwyNzYsMjc0LDIzMSwyNDMsMjMwLDI0MiwyNjIsMjYwLDkwNiw5MywyMTAsMTI0LDE5MywxOCwxMTksMTkyLDMxOCwzMjEsMzIzLDMwNiw5MDcsOTAwLDI4LDQwLDM2LDMyLDYwLDU2LDUyLDMsNCw2LDcsOCw5LDExLDEyLDEzLDE0LDE1LDE2LDg0OV0iLCJyb2xlcyI6IlsxXSIsInVzZXJfcm9sZXMiOiJbMV0iLCJ0YXhwYXllcl9pZCI6IjMzZmMzNjkzLWY5YzItOTAyZC0yM2Y1LWRlMTVjYzU0MDE0YSIsImRhdGFhY2Nlc3Nwb2xpY2llcyI6IltcIlZBVF9WQVRUTlRFVkFUQ1wiLFwiVkFUX0RWQVRcIixcIlZBVF9WQVRcIixcIkFsbG93RWRpdElmVGF4cGF5ZXJUYXhPZmZpY2VNYXRjaGVzVXNlclRheE9mZmljZVwiXSIsInJlcHJlc2VudGF0aXZlVGF4VHlwZXMiOiJudWxsIiwicmVwcmVzZW50YXRpdmVTdWJzZXJ2aWNlcyI6Im51bGwiLCJDaG9zZW5MYW5ndWFnZSI6IjEiLCJqdGkiOiI0ODVDMTcwMTVBNTYxREE3MUJDNTFDMjVGMEY1NDc1OSIsInNpZCI6IjRFRkQyRjNFOTg1MDJCMkFCQjZBNzlCMzBDQ0M2REI4IiwiaWF0IjoxNzI0MTQ4MzE0LCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiY2F0c2hvbWVwb3J0YWwtYXBpIl0sImFtciI6WyJwd2QiXX0.Vjb1KF_8K8aiMXMDm1Q4TqkbfppIEpEFdgVebOESLX3IYDSrPcQZRWatxKqyUKTRgpK7Hd0AUSxsONJoLatgkfThWzjcdGm6tIXQmCJ_HhmFkDXTPMbLv31Wq2v6qqIIVgtkW38S9Az-rM-D11Xf86Vt8Bvx0s5-5a_eTMiboEc6ACj_Mmfeiq4cu5b9ryfkdkXK0l3nJ_pMinHzQue01w2FqtHjjecxK0AYXNCfZaX97wPHwcS-uW8Mj-dC2jlKmH_A0jnE9iOCBURvhUlze0LeZ5qrhHwC-J0lz77cWXz7B-kmtWHUqiCD28vFbr-FgQXb17h5UdzLKOMraCvPUMrff6WXZW80ZfxE8whmy6kLGp7fetdlVsVYBm790pAd98CU71eXTbBZsQvLZDXEexVhVVphGLB1R5T0S51J0FG1r1yZ4BmOmgYm5gliXfAbqNqW-Piy36L4FiC3lMGuj1mnAVhi4vXUB-WGcYFx1iRgVRFg3exnvS9CyvbLn6f20bAeW9VGDw9a1cNUYsP4qw1R8fdVkTdjo4p2c5lpat9rQm2NmOqfEb4VzhK_F-ZtwxXUwAfcGiciqWowmkCIJUeVmgUPAvL1YxQNMoG7Cuhg4ncaoT81NA4ciLF4378BdYcvYDnrAEVYg0Wo3pLxLSQHqzzBlYyp4dW74g2c6K8",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"RecordId\": \"c8a8b39f-1202-444f-8e67-b9b156c14457\",\r\n  \"FormData\": {\r\n  \"TaxpayerType\": \"TA002\",\r\n  \"RecordId\": \"c8a8b39f-1202-444f-8e67-b9b156c14457\",\r\n  \"TaxType\": \"VAT_DVAT\",\r\n  \"IsDraft\": true,\r\n  \"BasedOnType\": \"1\",\r\n  \"TaxableEntrepreneurName\": \"NAMA0015887250092000\",\r\n  \"Address\": \"Jalan Panjang,  RT 001,  RW 002, KEBON JERUK, KEBON JERUK, KOTA ADM. JAKARTA BARAT, DKI JAKARTA, Indonesia 11530\",\r\n  \"PhoneNumber\": \"+6281999760161\",\r\n  \"Cellphone\": \"+6281999760161\",\r\n  \"TIN\": \"0015887250092000\",\r\n  \"BusinessFieldClassification\": \"AHLI TEKNIK PERTAMBANGAN BATU BARA\",\r\n  \"TaxPeriod\": \"03032024\",\r\n  \"ReturnSheetModel\": \"AMENDMENT\",\r\n  \"BookkeepingPeriodStart\": 1,\r\n  \"BookkeepingPeriodEnd\": 12,\r\n  \"BookkeepingPeriod\": \"\",\r\n  \"ExportTangibleTaxableGoods\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"DomesticDeliveriesUsingOtherValue\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesToTourist\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesOtherThanOtherValue\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesSelfCollected\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesCollectedByVATCollector\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesUncollectedVAT\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesExemptedVAT\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticDeliveriesVAT\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DeliveryOfTaxableGoodsSubjectToVAT\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DeliveriesOfGoodsNoVAT\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"TotalDeliveryOfGoodsAndServices\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"ImportOfTaxableGoods\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticTaxableGoodsUsingOtherValueTaxBase\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticTaxableGoodsWithInvoiceCode01\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"DomesticTaxableGoodsWithInvoiceCode02\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"CarryForwardOfInputTax\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"ResultsOfTheRecalculation\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"AmountOfInputTaxCalculated\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"ImportsOfUncreditedInput\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"ImportsOfOtherTaxableGoods\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"TotalAcquisition\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"OutputTaxMustBeSelfCollected\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATIsDepositedInAdvance\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"InputTaxCanBeCalculated\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATCollectedByVATCollector\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATUnderOrOverPaid\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATUnderOrOverPaidOnPrevious\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": -2300000,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATUnderOrOverPaidDueToAmendment\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": -300000,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"AskForReplacement\": null,\r\n  \"ReplacementPrevious\": false,\r\n  \"AskedTo\": \"FAST_REFUND\",\r\n  \"BankAccount\": \"MYBANK\",\r\n  \"AccountNo\": \"1233\",\r\n  \"BankCode\": \"2300\",\r\n  \"BankName\": \"MYBANK\",\r\n  \"AccountName\": \"ACCNAME\",\r\n  \"OutputTaxDeliveriesOfGoods\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"OutputTaxRenderOfServices\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"OutputTaxTotal\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"InputTaxDeliveriesOfGoods\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"InputTaxPercentageGoods\": 70,\r\n  \"InputTaxRenderOfServices\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"InputTaxPercentageServices\": 60,\r\n  \"InputTaxCarryForward\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"InputTaxTotal\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATPayable\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"VATNeedToRepay\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": null\r\n  },\r\n  \"STLGMustBeSelfCollected\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"STLGCollectedByVATCollector\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"STLGUnderOrOverPaid\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"STLGUnderOrOverPaidOnPrevious\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"STLGUnderOrOverPaidDueToAmendment\": {\r\n    \"SellingPrice\": null,\r\n    \"OtherTaxBase\": null,\r\n    \"VAT\": null,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"AskedForReturns\": false,\r\n  \"TotalVATAndSTLGCollected\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"VATAndSTLGUnderOrOverPaidOnAmmended\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"VATAndSTLGUnderOfOverPaidDueToAmmendment\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"TotalVATAndSTLGCollectedByOtherParties\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"VATAndSTLGCollectedByOtherPartiesUnderOrOverPaidOnAmmended\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"VATAndSTLGCollectedByOtherPartiesUnderOfOverPaidDueToAmmendment\": {\r\n    \"SellingPrice\": 0,\r\n    \"OtherTaxBase\": 0,\r\n    \"VAT\": 0,\r\n    \"SalesTaxLuxuryGoods\": 0\r\n  },\r\n  \"AskedForReturnsShouldNotBeOwned\": false,\r\n  \"A1FormListOfExportTaxableGoodsOrServices\": {\r\n    \"TaxableEntrepreneurName\": \"NAMA0015887250092000\",\r\n    \"TIN\": \"0015887250092000\",\r\n    \"TaxPeriodMonth\": 3,\r\n    \"TaxPeriodYear\": 2024,\r\n    \"ReturnSheetModel\": \"AMENDMENT\",\r\n    \"Total\": 0\r\n  },\r\n  \"B3FormListOfInputTaxesUncredit\": {\r\n    \"TotalSellingPrice\": 0,\r\n    \"TotalOtherTaxBase\": 0,\r\n    \"TotalVAT\": 0,\r\n    \"TotalSTLG\": 0\r\n  },\r\n  \"CFormListOfVatAndStlgCollectedByOtherParties\": {\r\n    \"TotalTaxBase\": 0,\r\n    \"TotalOtherTaxBase\": 0,\r\n    \"TotalVAT\": 0,\r\n    \"TotalSTLG\": 0\r\n  },\r\n  \"IA6FormListDomesticDeliveriesOfTaxableGoodsSelfCollected\": {\r\n    \"TotalSellingPrice\": 0,\r\n    \"TotalOtherTaxBase\": 0,\r\n    \"TotalVAT\": 0,\r\n    \"TotalSTLG\": 0\r\n  },\r\n  \"IA9FormListDomesticDeliveriesOfTaxableGoodsFacilities\": {\r\n    \"TotalSellingPrice\": 0,\r\n    \"TotalOtherTaxBase\": 0,\r\n    \"TotalVAT\": 0,\r\n    \"TotalSTLG\": 0\r\n  },\r\n  \"IBFormListDeliveriesOfGoodsWithNoVATPayable\": {\r\n    \"TotalSellingPrice\": 0\r\n  },\r\n  \"MotorVehicleDetailsXmlDocumentNumber\": null,\r\n  \"DocumentResultOfRecalculationInputTax\": null,\r\n  \"DocumentListMotorVehicle\": null,\r\n  \"DeclareBy\": 0,\r\n  \"City\": \"KOTA ADM. JAKARTA BARAT\",\r\n  \"Date\": null,\r\n  \"Name\": \"NAMA0015887250092000\",\r\n  \"Position\": \"acc\",\r\n  \"DueDate\": \"2024-04-30T00:00:00+07:00\",\r\n  \"XmlDocumentNumber\": null,\r\n  \"IA6FormDocumentList\": null,\r\n  \"IA9FormDocumentList\": null,\r\n  \"IBFormDocumentList\": null\r\n},\r\n  \"AggregateIdentifier\": \"d87e305e-e727-4601-b693-2744166e8fbc\",\r\n  \"ReturnDate\": \"2024-08-20T17:12:24+07:00\",\r\n  \"ReturnSheetAggregateIdentifier\": \"2e1eefc2-ec75-46dd-a3c1-24c722060bbd\",\r\n  \"IsPayWithDeposit\": false,\r\n  \"DocumentFormNumber\": \"DN20241724148750646187\",\r\n  \"DocumentFormAggregateIdentifier\": \"0ed2940e-1f15-40f9-abba-9d352fdb6c3a\",\r\n  \"TaxpayerAggregateIdentifier\": \"33fc3693-f9c2-902d-23f5-de15cc54014a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://tpportal-qa.intranet.pajak.go.id/returnsheetportal/api/bookreturnsheet"
+			},
+			"response": []
+		},
+		{
+			"name": "deletespt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjVENjlGREUxMTRBQzkzRTU1QzExQjMwQjIyMzFGQTRDMzlGNzNDMUJSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlhXbjk0UlNzay1WY0ViTUxJakg2VERuM1BCcyJ9.eyJuYmYiOjE3MjQzOTc5NDUsImV4cCI6MTcyNDQwMTU0NSwiaXNzIjoiaHR0cHM6Ly90cHBvcnRhbC1xYS5pbnRyYW5ldC5wYWphay5nby5pZC9pZGVudGl0eXByb3ZpZGVycG9ydGFsIiwiY2xpZW50X2lkIjoiY2F0cy1wb3J0YWwtYW5ndWxhci1jbGllbnQiLCJzdWIiOiIwMzE0NjkxMzc5MDc0MDAwIiwiYXV0aF90aW1lIjoxNzI0Mzk3OTQyLCJpZHAiOiJsb2NhbCIsImlkZW50aWZpZXIiOiI2NjM5YTdhYS1mMTc2LTY1NDUtODBkMS00ODhlOWEyZGU2MjAiLCJ1c2VyX25hbWUiOiIwMzE0NjkxMzc5MDc0MDAwIiwiaW5hY3Rpdml0eVRpbWVvdXQiOiI2MDAwMCIsImxhbmd1YWdlIjoiZW4tVVMiLCJsYXN0bG9naW50aW1lIjoiMjAyNC0wOC0yM1QxMzoxNDo0Ni4wMDAiLCJ0YXhvZmZpY2UiOiIwNzMiLCJmdWxsX25hbWUiOiJOQU1BMDMxNDY5MTM3OTA3NDAwMCIsImVtYWlsIjoidGVzdGluZ2N0YXNAa2VtZW5rZXUuZ28uaWQiLCJwZXJtaXNzaW9ucyI6IlszMywyOTcsMjk4LDI5MywyMDIsMzExLDkwMiwzMDcsMTcxLDIxNCwyNTAsMjgwLDIzNywyNjYsMjUsMzcsNjUsMjksNjMsNjIsNTcsNTMsNDksMjM2LDI0MCwyNDQsMjQ1LDMxNCwzMTksMzIyLDMyNCw2OTEsNjg5LDY4Nyw2OTAsNjg4LDY4MSw2ODIsNjg2LDY4Myw2ODUsNjg0LDcwMiw3MDAsNjk4LDcwMSw2OTksNjkyLDY5Myw2OTcsNjk0LDY5Niw2OTUsNjY5LDY2Nyw2NjUsNjY4LDY2Niw2NTksNjYwLDY2NCw2NjEsNjYzLDY2Miw2ODAsNjc4LDY3Niw2NzksNjc3LDY3MCw2NzEsNjc1LDY3Miw2NzQsNjczLDY1OCw2NTcsNjU1LDY1Niw2NDksNjUwLDY1NCw2NTEsNjUzLDY1Miw2MjEsNjE5LDYxNyw2MjAsNjE4LDYxMSw2MTIsNjE2LDYxMyw2MTUsNjE0LDYxMCw2MDgsNjA2LDYwOSw2MDcsNjAwLDYwMSw2MDUsNjAyLDYwNCw2MDMsOTksMTA5LDEwOCwxMDcsMTQ2LDE1MSwxNTYsMTYxLDE3MiwxOTEsMTQwLDEzOCwxNDIsMTY4LDE2MywyNTIsMjE1LDI3MywyNTEsMjgxLDIzNSwyNjcsOTQ1LDI4NiwyMTEsOTIzLDE0MywxNDgsMTUzLDE1OCwxMjgsMTI1LDEyNiwxNjUsMTI3LDIyNyw5MDgsOTUsMjA2LDI3MCwyMDAsMjQ3LDI3NSwyMzIsMjYxLDIyNSwyMzksNjQzLDY0MSw2MzksNjQyLDY0MCw2MzMsNjM0LDYzOCw2MzUsNjM3LDYzNiwyMjEsMjI5LDQyMSwyMDgsMjcyLDkwNCwyNDgsMjc4LDIzNCwyNjQsMzI1LDY0Nyw2NDgsNjQ1LDY0NCw2NDYsNDEyLDIxMiwyOTAsOTQwLDk0MSwyMCwxOTgsMjIwLDE0NCwxNDksMTU0LDE1OSwxMzYsMTMzLDEzNSwxNjYsMTM0LDIyOCwzMTYsMTIyLDIwNywyNzEsOTgsMzEyLDkwMywyNDEsMjc3LDIzMywyNjMsOTIwLDMwOCwyOTEsOTIxLDc3OSw3ODEsNzg4LDc4NSw3ODksNzg0LDc4Niw3ODcsNzgwLDc4Miw3ODMsNzY1LDc2Myw3NzIsNzY2LDc3Myw3NzQsNzcxLDc2OCw3NzAsNzY5LDc2Nyw3NjQsMTQ3LDE1MiwxNTcsMTYyLDEzOSwxMzcsMTQxLDE2OSwxNjQsNzc1LDc3Nyw3NzgsNzc2LDc1MCw3NTIsNzU5LDc1Niw3NTUsNzYyLDc2MSw3NTcsNzU4LDc2MCw3NTEsNzUzLDc1NCw5NDQsNDE0LDQxMSwyNywzOSwzNSwzMSw1OSw1NSw1MSw5NDIsMjAzLDI5OSw0MjMsMzA5LDI4MiwyNDYsMjY4LDg0MCw4NDgsODQ1LDg0NCw4NDYsODQ3LDg0MSw4NDIsODQzLDgxMSw4MDUsODA2LDgwNyw4MDksODEyLDgxOSw4MjcsODE2LDgxNSw4MjMsODI4LDgyOSw4MjYsODIyLDgyMCw4MjQsODI1LDgxNyw4MTgsODIxLDgwOCw4MTAsODEzLDgxNCw4MzAsODMyLDgzOSw4MzYsODM1LDgzNyw4MzgsODMxLDgzMyw4MzQsNzkwLDc5MSw3OTMsODAwLDc5Nyw4MDQsNzk2LDgwMiw4MDEsODAzLDc5OCw3OTksNzkyLDc5NCw3OTUsNDE1LDk0Myw0MjIsMjIzLDYzMiw2MzAsNjI4LDYzMSw2MjksNjIyLDYyMyw2MjcsNjI0LDYyNiw2MjUsNDEzLDI4OSwyMjIsMjk0LDUwMCwzMDAsNDI0LDQxNywyNDksMjc5LDI2NSw2NCwyMSw2MSw0NSw0MSwyMDksMTc0LDE4NSwxNzcsMTc4LDE4OSwxNzMsMTg3LDE3NiwxNzUsMTcwLDI1NCwxODAsMTg2LDE4MywxODQsMTkwLDE3OSwxODgsMTgyLDE4MSwyODMsMjU1LDI2OSwyNiwzOCwzNCwzMCw1OCw1NCw1MCw0MTYsMjU2LDEyMCwyODcsNDAxLDkzOCwyMTksMjE2LDIxOCwyMTcsOTM3LDMxMywyOTUsMTQ1LDE1MCwxNTUsMTYwLDEzMCwxMjksMTMxLDE2NywxMzIsMjk2LDI5Miw1MDEsMjg4LDMwMSwyMjQsMjEzLDI4NCwyMjYsNDI1LDQxOCw0MjAsNDE5LDMxNSwxMjEsMTk3LDI1NywyNTgsOTA1LDkyLDIwNSwyMDQsMjUzLDMyNiw0MDAsOTQsMTIzLDk2LDE3LDk3LDMxNywzMjAsMzEwLDE5OSw5MDEsMjM4LDI4NSwyNzYsMjc0LDIzMSwyNDMsMjMwLDI0MiwyNjIsMjYwLDkwNiw5MywyMTAsMTI0LDE5MywxOCwxMTksMTkyLDMxOCwzMjEsMzIzLDMwNiw5MDcsOTAwLDI4LDQwLDM2LDMyLDYwLDU2LDUyLDMsNCw2LDcsOCw5LDExLDEyLDEzLDE0LDE1LDE2LDg0OV0iLCJyb2xlcyI6IlsxXSIsInVzZXJfcm9sZXMiOiJbMV0iLCJ0YXhwYXllcl9pZCI6IjI0MTQyZTAwLTNmZmMtMjZlMC0xOTAyLThiYjU0ZTBhODM4ZiIsImRhdGFhY2Nlc3Nwb2xpY2llcyI6IltcIlZBVF9WQVRUTlRFVkFUQ1wiLFwiVkFUX0RWQVRcIixcIlZBVF9WQVRcIixcIkFsbG93RWRpdElmVGF4cGF5ZXJUYXhPZmZpY2VNYXRjaGVzVXNlclRheE9mZmljZVwiXSIsInJlcHJlc2VudGF0aXZlVGF4VHlwZXMiOiJudWxsIiwicmVwcmVzZW50YXRpdmVTdWJzZXJ2aWNlcyI6Im51bGwiLCJDaG9zZW5MYW5ndWFnZSI6IjEiLCJqdGkiOiIxNTBEMEE4RUVGNzAwNERFRjQ1QjEwM0Y1RTczNUMzOCIsInNpZCI6IjkzMDdCNjZFNjg3OTlENzJBRDdBN0M3Mzk0QzZFQjdEIiwiaWF0IjoxNzI0Mzk3OTQ1LCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiY2F0c2hvbWVwb3J0YWwtYXBpIl0sImFtciI6WyJwd2QiXX0.cvWc74DaJGqdBt8-vKEyFYnUUpqxKf7f1B6oiLlO4414C5nfRzmusN7zs6CZ7_TQ118sde00Eoymc5ZlTVrksA3f8Oy4y0eWy6N6i1WZamUhoo6A7Rtm9wsGLoav539JxvYWcaQz18gxYWF5_exlXxzWK9QcXacgj4kb-2QMjfxVVwcikZdcXYdOZBcAAnm7R50w5iewiTud3lsHwwh1HhJio2sdWvAQepVRDGCU7BEOGBHYB_fCRLBHr_lUysq6RsWWk7QtEp-n06FPoIi9lv53anbyDakmrReh_qp5u3_5qeotqiUYgINTph7qxpLn7BdQxO2hdhuEJ9XgMVcAzVsrgpx8UXHzdfCee2RZsnq6eElNu3WWuz8ctM13wnRZjLwnX2cZGmxpoeNYZ9cFtNlwtVbvtGtwARslGdF1bWbzr4k9r5bq7zc2JZ6s9-zW1SdrjMZJEAaK9Q6cHVfzbd1KY_xxFCuvwlKCDp6l6-Qhc6uBOjXj_scWx_8SHxSFthNhpqm8_HczGTn7YmXyPbbja3anOqwT7HizwHrNIoTAHxbgTNl4mDtgDkZeXgm3FuxDdV-fwxwCR9CYJiWWgR3C4bj1PJnvMUe6VWYPDbqs6HS_djQmPQ7BoFB5fBHNV9JOf8_bLuxJGaGdg6ut7BTdK6YtGwHr2EO8uoO0zTU",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"RecordId\": \"c55cf1ee-c7aa-67d9-d3a7-7939454c4536\",\r\n  \"TaxpayerAggregateIdentifier\": \"24142e00-3ffc-26e0-1902-8bb54e0a838f\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://tpportal-qa.intranet.pajak.go.id/returnsheetportal/api/deletereturnsheets"
+			},
+			"response": []
+		},
+		{
+			"name": "signing",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjVENjlGREUxMTRBQzkzRTU1QzExQjMwQjIyMzFGQTRDMzlGNzNDMUJSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IlhXbjk0UlNzay1WY0ViTUxJakg2VERuM1BCcyJ9.eyJuYmYiOjE3MjQyMzA2MzMsImV4cCI6MTcyNDIzNDIzMywiaXNzIjoiaHR0cHM6Ly90cHBvcnRhbC1xYS5pbnRyYW5ldC5wYWphay5nby5pZC9pZGVudGl0eXByb3ZpZGVycG9ydGFsIiwiY2xpZW50X2lkIjoiY2F0cy1wb3J0YWwtYW5ndWxhci1jbGllbnQiLCJzdWIiOiIwNDIxODk4NDc5NDMzMDAwIiwiYXV0aF90aW1lIjoxNzI0MjMwNjMyLCJpZHAiOiJsb2NhbCIsImlkZW50aWZpZXIiOiIwNGIwMzBhMy1iYzE3LWVjNDEtYmZhNi1kMGFkNjUzMTNmMjkiLCJ1c2VyX25hbWUiOiIwNDIxODk4NDc5NDMzMDAwIiwiaW5hY3Rpdml0eVRpbWVvdXQiOiI2MDAwMCIsImxhbmd1YWdlIjoiZW4tVVMiLCJsYXN0bG9naW50aW1lIjoiMjAyNC0wOC0yMVQxNDoxNToyNS4wMDAiLCJ0YXhvZmZpY2UiOiI0MDgiLCJmdWxsX25hbWUiOiJOQU1BMDQyMTg5ODQ3OTQzMzAwMCIsImVtYWlsIjoidGVzdGluZ2N0YXNAa2VtZW5rZXUuZ28uaWQiLCJwZXJtaXNzaW9ucyI6IlszMywyOTcsMjk4LDI5MywyMDIsMzExLDkwMiwzMDcsMTcxLDIxNCwyNTAsMjgwLDIzNywyNjYsMjUsMzcsNjUsMjksNjMsNjIsNTcsNTMsNDksMjM2LDI0MCwyNDQsMjQ1LDMxNCwzMTksMzIyLDMyNCw2OTEsNjg5LDY4Nyw2OTAsNjg4LDY4MSw2ODIsNjg2LDY4Myw2ODUsNjg0LDcwMiw3MDAsNjk4LDcwMSw2OTksNjkyLDY5Myw2OTcsNjk0LDY5Niw2OTUsNjY5LDY2Nyw2NjUsNjY4LDY2Niw2NTksNjYwLDY2NCw2NjEsNjYzLDY2Miw2ODAsNjc4LDY3Niw2NzksNjc3LDY3MCw2NzEsNjc1LDY3Miw2NzQsNjczLDY1OCw2NTcsNjU1LDY1Niw2NDksNjUwLDY1NCw2NTEsNjUzLDY1Miw2MjEsNjE5LDYxNyw2MjAsNjE4LDYxMSw2MTIsNjE2LDYxMyw2MTUsNjE0LDYxMCw2MDgsNjA2LDYwOSw2MDcsNjAwLDYwMSw2MDUsNjAyLDYwNCw2MDMsOTksMTA5LDEwOCwxMDcsMTQ2LDE1MSwxNTYsMTYxLDE3MiwxOTEsMTQwLDEzOCwxNDIsMTY4LDE2MywyNTIsMjE1LDI3MywyNTEsMjgxLDIzNSwyNjcsOTQ1LDI4NiwyMTEsOTIzLDE0MywxNDgsMTUzLDE1OCwxMjgsMTI1LDEyNiwxNjUsMTI3LDIyNyw5MDgsOTUsMjA2LDI3MCwyMDAsMjQ3LDI3NSwyMzIsMjYxLDIyNSwyMzksNjQzLDY0MSw2MzksNjQyLDY0MCw2MzMsNjM0LDYzOCw2MzUsNjM3LDYzNiwyMjEsMjI5LDQyMSwyMDgsMjcyLDkwNCwyNDgsMjc4LDIzNCwyNjQsMzI1LDY0Nyw2NDgsNjQ1LDY0NCw2NDYsNDEyLDIxMiwyOTAsOTQwLDk0MSwyMCwxOTgsMjIwLDE0NCwxNDksMTU0LDE1OSwxMzYsMTMzLDEzNSwxNjYsMTM0LDIyOCwzMTYsMTIyLDIwNywyNzEsOTgsMzEyLDkwMywyNDEsMjc3LDIzMywyNjMsOTIwLDMwOCwyOTEsOTIxLDc3OSw3ODEsNzg4LDc4NSw3ODksNzg0LDc4Niw3ODcsNzgwLDc4Miw3ODMsNzY1LDc2Myw3NzIsNzY2LDc3Myw3NzQsNzcxLDc2OCw3NzAsNzY5LDc2Nyw3NjQsMTQ3LDE1MiwxNTcsMTYyLDEzOSwxMzcsMTQxLDE2OSwxNjQsNzc1LDc3Nyw3NzgsNzc2LDc1MCw3NTIsNzU5LDc1Niw3NTUsNzYyLDc2MSw3NTcsNzU4LDc2MCw3NTEsNzUzLDc1NCw5NDQsNDE0LDQxMSwyNywzOSwzNSwzMSw1OSw1NSw1MSw5NDIsMjAzLDI5OSw0MjMsMzA5LDI4MiwyNDYsMjY4LDg0MCw4NDgsODQ1LDg0NCw4NDYsODQ3LDg0MSw4NDIsODQzLDgxMSw4MDUsODA2LDgwNyw4MDksODEyLDgxOSw4MjcsODE2LDgxNSw4MjMsODI4LDgyOSw4MjYsODIyLDgyMCw4MjQsODI1LDgxNyw4MTgsODIxLDgwOCw4MTAsODEzLDgxNCw4MzAsODMyLDgzOSw4MzYsODM1LDgzNyw4MzgsODMxLDgzMyw4MzQsNzkwLDc5MSw3OTMsODAwLDc5Nyw4MDQsNzk2LDgwMiw4MDEsODAzLDc5OCw3OTksNzkyLDc5NCw3OTUsNDE1LDk0Myw0MjIsMjIzLDYzMiw2MzAsNjI4LDYzMSw2MjksNjIyLDYyMyw2MjcsNjI0LDYyNiw2MjUsNDEzLDI4OSwyMjIsMjk0LDUwMCwzMDAsNDI0LDQxNywyNDksMjc5LDI2NSw2NCwyMSw2MSw0NSw0MSwyMDksMTc0LDE4NSwxNzcsMTc4LDE4OSwxNzMsMTg3LDE3NiwxNzUsMTcwLDI1NCwxODAsMTg2LDE4MywxODQsMTkwLDE3OSwxODgsMTgyLDE4MSwyODMsMjU1LDI2OSwyNiwzOCwzNCwzMCw1OCw1NCw1MCw0MTYsMjU2LDEyMCwyODcsNDAxLDkzOCwyMTksMjE2LDIxOCwyMTcsOTM3LDMxMywyOTUsMTQ1LDE1MCwxNTUsMTYwLDEzMCwxMjksMTMxLDE2NywxMzIsMjk2LDI5Miw1MDEsMjg4LDMwMSwyMjQsMjEzLDI4NCwyMjYsNDI1LDQxOCw0MjAsNDE5LDMxNSwxMjEsMTk3LDI1NywyNTgsOTA1LDkyLDIwNSwyMDQsMjUzLDMyNiw0MDAsOTQsMTIzLDk2LDE3LDk3LDMxNywzMjAsMzEwLDE5OSw5MDEsMjM4LDI4NSwyNzYsMjc0LDIzMSwyNDMsMjMwLDI0MiwyNjIsMjYwLDkwNiw5MywyMTAsMTI0LDE5MywxOCwxMTksMTkyLDMxOCwzMjEsMzIzLDMwNiw5MDcsOTAwLDI4LDQwLDM2LDMyLDYwLDU2LDUyLDMsNCw2LDcsOCw5LDExLDEyLDEzLDE0LDE1LDE2LDg0OV0iLCJyb2xlcyI6IlsxXSIsInVzZXJfcm9sZXMiOiJbMV0iLCJ0YXhwYXllcl9pZCI6IjQ5YTg5MzdjLWY1ZjAtMDE4ZS0zZGJmLWRiOGQ3ZTcyOGNkYyIsImRhdGFhY2Nlc3Nwb2xpY2llcyI6IltcIlZBVF9WQVRUTlRFVkFUQ1wiLFwiVkFUX0RWQVRcIixcIlZBVF9WQVRcIixcIkFsbG93RWRpdElmVGF4cGF5ZXJUYXhPZmZpY2VNYXRjaGVzVXNlclRheE9mZmljZVwiXSIsInJlcHJlc2VudGF0aXZlVGF4VHlwZXMiOiJudWxsIiwicmVwcmVzZW50YXRpdmVTdWJzZXJ2aWNlcyI6Im51bGwiLCJDaG9zZW5MYW5ndWFnZSI6IjEiLCJqdGkiOiIxMTA5QkE0ODRFNjkzNTBGREUxQjM4OEI0REM2MUIzMiIsInNpZCI6IjY4Rjg4MjNCNzZBRkY3MzVGNDU3QUQxQTlBNkVFMTQzIiwiaWF0IjoxNzI0MjMwNjMzLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiY2F0c2hvbWVwb3J0YWwtYXBpIl0sImFtciI6WyJwd2QiXX0.nxTRGKwZeNVxWeLNiV9zg-wTXPL5mNUoJ-xDU_ymtuoke_NRMvBb9bPE40noqc44MyXR8uGFSj4NiWdf_aUc5W4Nf6HXOf_lQ365gjwUXCicLzIfSIxQZnKm7oOxO61RP9y_u98UBpunorF9b0XoGuRfptTRE0iUCV43jWIEWiIij7IuO1xYg_UWW_aIVvY8nezMNH3KeSIhW1bT10jdjfguCrbU3BqRHmuqm78SsIPKfsovRcknSkw2B3zq_Qywz7fi_snuowXl-8AQpqWevI3J2GdZNMvW4i1reJbryMVq3zn3Qfs9piszXJ8jHte9p6S_PdxFUHdB8aNt-kwF_0I5y1WkiO7eGfOV5mvUwlNgACKxPYeRi2_Sa1HJ_byy78orEaNdSucyZJ9maZNxBm9GKt61CQVF4F4_IWonLZruKlv38qoPPrn54fEN712t8lOjJdsL-g1yVEnrmeYGVkBVAPkVoabMuT8Gp-dG9UAtazcyhuqxEk_yxxo0aKqy4H1SnzzDbCKp8NeSoLYL7MzHvw0-xCCkYnRzs49q6lRtnOZj0I4Mg2d3qZznwzv3_8rsL7dDtDspB27IsiS38OJUdH8NX3anT8CJJgDewWIY8j2zr_2W4nvickftayv3wJ08rpU35kkeUy-EjT6hZcwdnWkVJCQgw1BtHHnhW2U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"DocumentType\": \"M_03-DOC003\",\r\n  \"TaxpayerAggregateIdentifier\": \"49a8937c-f5f0-018e-3dbf-db8d7e728cdc\",\r\n  \"DocumentId\": \"DN20241724231231110765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://tpportal-qa.intranet.pajak.go.id/documentmanagementportal/api/DocumentTypeConfiguration/checksignprogress"
+			},
+			"response": []
+		},
+		{
+			"name": "checksigning",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZGVudGlmaWVyIjoiODNkZjU0MDAtZGRmNi0xYzQyLTg2ZGEtZTg5NzA1OGEwZDQ5IiwidXNlcl9uYW1lIjoiQml6cGphcElmVHhyMDQxIiwiWF9JUCI6IjEsIDEwLjI0NS42NS4xMSIsImlhdCI6MTcyNDI5ODE4MywiZXhwIjoxNzI0NDA5NzgzLCJpc3MiOiJDVEFTLUlOVEVSRkFDRVMiLCJhdWQiOiJCaXpwamFwSWZUeHIwNDEifQ.NOUmewfgMFpjrZXLsUY5oGzwREl2hk2DVbB_-eO-67Um1m6V2Lk9Sx4LdWrLvPd5auRsT4zcoMIHtF35pbE3nA",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Forwarded-For",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"npwp\": \"0421898479433000\",\r\n    \"ntte\": \"BPE-00032/KPP.2204/2024\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://10.245.65.11:28820/mediate/ctas/interface/bizPJAP/ctasApp/IF_TXR_041/reqContent"
+			},
+			"response": []
+		}
+	]
+}
